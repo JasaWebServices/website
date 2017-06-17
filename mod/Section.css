@@ -1,0 +1,48 @@
+.section {
+    position: relative;
+    padding: 80px 10px;
+    border-top: 1px none silver;
+    background-color: white;
+    text-align: center;
+}
+
+.section.accent {
+    background-color: #192024;
+}
+
+.section-heading {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.section-heading.centered {
+    margin-top: 0px;
+    color: #676770;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-heading.centered.white {
+    color: white;
+}
+
+.section-subheading.center {
+    color: #8e8e9c;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.section-subheading.center.off-white {
+    padding-bottom: 0px;
+    color: #e8e8e8;
+}
+
+.section-title-group {
+    margin-bottom: 60px;
+}

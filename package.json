@@ -1,0 +1,19 @@
+{
+  "name": "jasaws.com",
+  "version": "0.0.1",
+  "description": "jasaws.com website",
+  "main": "index.html",
+  "scripts": {
+	"build":"run/build --proj jasaws",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jasaws",
+    "website"
+  ],
+  "author": "Darren Liew",
+  "license": "MIT",
+  "dependencies": {
+    "pico-client": "*"
+  }
+}
