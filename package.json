@@ -1,6 +1,6 @@
 {
   "name": "jasaws.com",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "jasaws.com website",
   "main": "index.html",
   "scripts": {

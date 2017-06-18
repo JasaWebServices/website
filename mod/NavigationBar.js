@@ -82,17 +82,12 @@ return {
 		'click .navigation-link':function(e, target){
 			router.go(this.deps.navLinks[target.textContent])
 			var el=this.el
-			var nmenu=el.querySelector('.navigation-menu')
-			nmenu.querySelectorAll('.navigation-link').forEach(link=>{
-				link.classList.remove('w--current')
-			})
-			target.classList.add('w--current')
 
 			if (!target.closest('.w-nav-overlay')) return
 			
 			toggleMenu(
 				el.querySelector('.hamburger-button'),
-				nmenu,
+				el.querySelector('.navigation-menu'),
 				el.querySelector('.w-container'),
 				el.querySelector('.w-nav-overlay'))
 		},
@@ -119,6 +114,20 @@ return {
 				el.querySelector('.navigation-menu'),
 				el.querySelector('.w-container'),
 				el.querySelector('.w-nav-overlay'))
+		}
+	},
+	slots:{
+		paneUpdate:function(from,sender,paneId,name){
+			var nmenu=this.el.querySelector('.navigation-menu')
+			var target
+			nmenu.querySelectorAll('.navigation-link').forEach((link,i)=>{
+				switch(name){
+				case 'home': if (0===i) target=link; break
+				case 'contact': if (1===i) target=link; break
+				}
+				link.classList.remove('w--current')
+			})
+			target.classList.add('w--current')
 		}
 	}
 }

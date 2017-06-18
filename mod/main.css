@@ -2490,35 +2490,6 @@ p {
     margin-top: 40px;
 }
 
-.slide {
-    background-image: url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/56241267ac24430b4cfe5191_Dsc_7358.jpg);
-    background-position: 0px 0px;
-    background-size: cover;
-}
-
-.slide_2 {
-    background-image: url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/56241267ac24430b4cfe5191_Dsc_7358.jpg);
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-}
-
-.slide2 {
-    background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
-    background-position: 0px 0px;
-    background-size: 125px;
-}
-
-.lb_achievements {
-    border: 1px none black;
-    background-image: url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/562412655292c4495d746bd9_Dsc_7205.jpg);
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .contact_header {
     padding-bottom: 20px;
     font-weight: 700;

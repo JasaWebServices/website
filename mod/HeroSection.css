@@ -7,8 +7,8 @@
     padding-top: 195px;
     padding-bottom: 195px;
     border-bottom: 4px solid #69b9ff;
-    background-image: -webkit-linear-gradient(rgba(46,157,255,0.49),rgba(46,157,255,0.49)),url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/5624047cac24430b4cfe4f6e_VQXYE2ZEHC.jpg);
-    background-image: linear-gradient(rgba(46,157,255,0.49),rgba(46,157,255,0.49)),url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/5624047cac24430b4cfe4f6e_VQXYE2ZEHC.jpg);
+    background-image: -webkit-linear-gradient(rgba(46,157,255,0.49),rgba(46,157,255,0.49)),url(dat/hero.jpg);
+    background-image: linear-gradient(rgba(46,157,255,0.49),rgba(46,157,255,0.49)),url(dat/hero.jpg);
     background-position: 0px 0px,50% 50%;
     background-size: auto,cover;
     background-repeat: repeat,no-repeat;
@@ -20,18 +20,6 @@
     color: #c2d2df;
     font-weight: 300;
     text-align: center;
-}
-
-.hero-section2 {
-    margin-bottom: 0px;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    background-image: -webkit-linear-gradient(rgba(0,0,0,0.49) 1%,rgba(88,88,88,0.49) 96%),url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/562810ddabe06e206c8f9258_6RHKEELJ8F.jpg);
-    background-image: linear-gradient(rgba(0,0,0,0.49) 1%,rgba(88,88,88,0.49) 96%),url(https://daks2k3a4ib2z.cloudfront.net/5623f918f8e6293d476fb99d/562810ddabe06e206c8f9258_6RHKEELJ8F.jpg);
-    background-position: 0px 0px,0px 0px;
-    background-size: auto,cover;
-    background-repeat: repeat,no-repeat;
-    background-attachment: scroll,fixed;
 }
 
 .hero-heading {
